@@ -2,9 +2,9 @@
 
 Sylva is an interactive Three.js landscape study: a procedural, moss-covered root grows through an editorial conservation hero and reacts to the pointer as if it were alive.
 
-[**View the live experience**](https://mengto.github.io/inner-green-3d/)
+[**View the live experience**](https://mengto.github.io/sylva/)
 
-![Sylva's living moss landscape and editorial interface](assets/inner-green-3d-preview.jpg)
+![Sylva's living moss landscape and editorial interface](assets/sylva-preview.jpg)
 
 ## What is inside
 
@@ -38,7 +38,7 @@ There is no install or build step. A browser with WebGL2 support is recommended;
 ## Project structure
 
 ```text
-inner-green-3d/
+sylva/
 ├── index.html                  # Complete experience
 ├── inner-green-assets/
 │   ├── three.min.js             # Vendored Three.js r149 runtime
