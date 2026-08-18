@@ -4,7 +4,7 @@ Sylva is an interactive Three.js landscape study: a procedural, moss-covered roo
 
 [**View the live experience**](https://mengto.github.io/sylva/)
 
-![Sylva's living moss landscape and editorial interface](assets/sylva-preview.jpg)
+![Sylva's living moss landscape and editorial interface](assets/sylva-preview.webp)
 
 ## What is inside
 
@@ -40,12 +40,12 @@ There is no install or build step. A browser with WebGL2 support is recommended;
 ```text
 sylva/
 ├── index.html                  # Complete experience
-├── inner-green-assets/
+├── sylva-assets/
 │   ├── three.min.js             # Vendored Three.js r149 runtime
 │   ├── lexend-latin.woff2       # Local Lexend variable font
 │   ├── liquid-metal-explore.html
 │   ├── liquid-metal-play.html
-│   └── card-*.jpg                # Field-note imagery
+│   └── card-*.webp               # Field-note imagery
 ├── assets/                     # README preview
 ├── licenses/                   # Third-party license texts
 └── README.md
@@ -53,7 +53,7 @@ sylva/
 
 ## Design and attribution
 
-This is an independent implementation study of the "Find your inner green" composition from Daily Hero 20 by [Daniel Snows](https://www.instagram.com/danielsnows/). The page recreates the reference's broad editorial composition while replacing its foreground artwork with original procedural geometry, shaders, motion, and interactions. It is not affiliated with or endorsed by the original designer.
+The layout began as an independent study of an editorial conservation composition by [Daniel Snows](https://www.instagram.com/danielsnows/). Sylva preserves the broad compositional idea while replacing its foreground artwork with original procedural geometry, shaders, motion, and interactions. It is not affiliated with or endorsed by the original designer.
 
 The local project notes record Higgsfield image generation and compositing for the supporting imagery. Three.js r149 is distributed under the MIT License, and Lexend is distributed under the SIL Open Font License 1.1; their license texts are included in [`licenses/`](licenses/).
 
